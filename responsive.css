@@ -1,0 +1,332 @@
+@media (max-width:1000px) {
+    .zammil {
+        position: relative;
+        max-width: 62%;
+        border-radius: 10px;
+        animation: move-up-down 4s ease-in-out infinite, blink-shadow 2s ease-in-out infinite;
+    }
+
+    .animated-text {
+        position: relative;
+        top: 0%;
+        left: 7%;
+        max-width: 70%;
+    }
+
+    .title {
+        font-size: 5vw;
+        width: 100%;
+    }
+
+    .p-tag {
+        width: 70%;
+        font-size: 1.9vw;
+    }
+
+    .hero-img {
+        position: absolute;
+        top: 0;
+        right: -12%;
+    }
+
+    #vibrating-image {
+        max-width: 10%;
+
+    }
+
+    .gallery-item {
+
+        width: 35%;
+    }
+
+    .web-title {
+        font-size: 4.3vw
+    }
+
+    #rotating-image {
+        position: fixed;
+        top: 80%;
+        right: 5%;
+        width: 9%;
+
+
+    }
+
+    .span-title {
+
+        font-size: 7vw;
+    }
+
+    .contact-text p {
+        font-size: 15px;
+    }
+
+    .social-icon {
+        /* display: block; */
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .col-img {
+        width: 45%;
+    }
+
+    .col-text {
+        width: 40%;
+    }
+
+    .now {
+        font-size: 1.5vw;
+    }
+
+    .counter h6 {
+
+        font-size: 1.6vw;
+    }
+
+    .count {
+        padding: 10px;
+        font-size: 1.6rem;
+        font-weight: 800;
+        background: linear-gradient(to right, #ff9900, #ff3399);
+        color: #fff;
+        margin-bottom: 10px;
+        width: 100px;
+    }
+
+
+}
+
+
+@media (max-width:700px) {
+    .zammil {
+        position: relative;
+        max-width: 67%;
+        border-radius: 10px;
+        animation: move-up-down 4s ease-in-out infinite, blink-shadow 2s ease-in-out infinite;
+    }
+
+    .animated-text {
+        position: relative;
+        top: 0%;
+        left: 7%;
+        max-width: 70%;
+    }
+
+    .title {
+        font-size: 6vw;
+        width: 90%;
+    }
+
+    .p-tag {
+        width: 60%;
+        font-size: 2vw;
+    }
+
+    .hero-img {
+        position: absolute;
+        top: 0;
+        right: -12%;
+    }
+
+    .hero {
+        position: relative;
+        height: 450px;
+        overflow: hidden;
+    }
+
+    #vibrating-image {
+        max-width: 13%;
+
+    }
+
+    .gallery-item {
+
+        width: 45%;
+    }
+
+    .web-title {
+       font-size: 5vw;
+    }
+
+    .performance {
+
+        margin-top: 17%;
+
+    }
+
+    #rotating-image {
+        position: fixed;
+        top: 80%;
+        right: 5%;
+        width: 11%;
+    }
+
+    .span-title {
+
+        font-size: 8vw;
+    }
+
+    .count {
+        font-size: 1.5rem;
+        width: 85px;
+    }
+
+    .counter h6 {
+        font-size: 2vw;
+    }
+
+    .col-img {
+        width: 60%;
+        text-align: center;
+
+    }
+
+    .col-text {
+        width: 70%;
+        text-align: center;
+    }
+
+    .contact {
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+
+    .social-icon a {
+        font-size: 2vw;
+    }
+
+    .now {
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width:560px) {
+    .Sklis-Box {
+        width: 85%;
+        height: auto;
+        background-color: #111824;
+        transition: 1s;
+        margin: 20px;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 10px rgba(3, 3, 3, 0.9);
+        background: linear-gradient(rgba(7, 8, 8, 0.4), rgba(50, 50, 50, 0.7));
+
+    }
+}
+
+@media (max-width:500px) {
+    .zammil {
+        position: relative;
+        max-width: 68%;
+        border-radius: 10px;
+        animation: move-up-down 4s ease-in-out infinite, blink-shadow 2s ease-in-out infinite;
+    }
+
+    .title {
+        font-size: 6vw;
+        width: 90%;
+    }
+
+    .p-tag {
+        width: 60%;
+        font-size: 2.2vw;
+    }
+
+    .hero-img {
+        position: absolute;
+        top: 6%;
+        right: -10%;
+    }
+
+    .hero {
+        position: relative;
+        height: 350px;
+        overflow: hidden;
+    }
+
+    #vibrating-image {
+        max-width: 15%;
+
+    }
+
+    .gallery-item {
+        width: 85%;
+    }
+
+    .web-title {
+        font-size: 6vw
+    }
+
+    #rotating-image {
+        position: fixed;
+        top: 80%;
+        right: 5%;
+        width: 14%;
+    }
+
+    .span-title {
+
+        font-size: 9vw;
+    }
+
+    .count {
+        font-size: 1.2rem;
+        width: 75px;
+    }
+
+    .counter h6 {
+        font-size: 2.5vw;
+    }
+
+    .contact-text p {
+        font-size: 13px;
+    }
+
+    .line-contact {
+        width: 3px;
+    }
+
+    .social-icon a {
+        font-size: 3vw;
+    }
+
+    .social-icon {
+        display: inline-block;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+
+    }
+
+    .col-img {
+        width: 70%;
+        /* width: 80vw; */
+        text-align: center;
+        margin-bottom: 5%;
+
+    }
+
+    .col-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .contact {
+        padding-top: 15%;
+    }
+
+}
+
+@media (max-width:445px) {
+
+    .social-icon {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+
+}
