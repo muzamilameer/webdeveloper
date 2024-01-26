@@ -1,0 +1,179 @@
+.janu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.animate__animated-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 1.5s ease;
+}
+
+.some-element {
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 1.5s ease;
+}
+
+.some-element {
+  transform: translateY(-120px);
+}
+
+.animate__animated-2 {
+  transform: translateX(-100px);
+}
+
+.animate__fadeInUp {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* ---------- */
+.gallery-item img {
+  max-width: 100%;
+  transform: translateX(-100%);
+  transition-delay: calc(.5s * var(--i));
+}
+
+.sec-5.show-animate .image img {
+  transform: translateX(0);
+}
+
+
+/* ----------------animation_text */
+:root {
+  --with: #fff;
+}
+
+.text {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  left: -100px;
+  display: flex;
+  justify-content: center;
+  color: var(--with);
+  overflow: hidden;
+  z-index: 1;
+
+
+}
+
+.text p {
+  font-size: 3.4vw;
+  text-transform: uppercase;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.hlo_gs {
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+
+}
+
+p {
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8E44AD;
+}
+
+.belize {
+  color: aqua;
+}
+
+.pomegranate {
+  color: #ff9900;
+}
+
+.green {
+  color: rgba(80 103 153);
+}
+
+.midnight {
+  color: #ff3399;
+
+}
+
+.p_left {
+  margin-left: 5px;
+  width: 100%;
+}
+
+@media (max-width:1000px) {
+  .text p {
+    font-size: 2rem;
+
+
+  }
+}
+
+@media (max-width:500px) {
+  .text {
+    top: 145px;
+    width: 100vw;
+    left: -50px;
+  }
+
+  .text p {
+    font-size: 5vw;
+
+
+  }
+}
+
+@media (max-width:330px) {
+  .text {
+    top: 16%;
+    width: 100vw;
+    left: -38px;
+  }
+
+}
+
+@media screen and (min-width: 1800px) {
+  .text p {
+    font-size: 4rem;
+  }
+
+
+
+  
+  .text {
+    top: 19%;
+    width: 100vw;
+    left: -189px;
+}
+
+}
